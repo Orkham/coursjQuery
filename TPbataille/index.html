@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang=fr>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bataille</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Bataille</h1>
+<div class="container">
+    <div id="cardsLeftWrapper">Cartes restantes : <span id="leftCards"></span></div>
+    <button id="actionBtn">Que le jeu commence...</button>
+    <div id="battleground">
+        <div id="playerOne">
+            <div>
+                <div id="nameOne" class="name">Joueur 1</div>
+                <div id="scoreOne" class="score">0</div>
+            </div>
+            <img src="" id="cardOne"/>
+        </div>
+        <div id="playerTwo">
+            <div>
+                <div id="nameTwo" class="name">Joueur 2</div>
+                <div id="scoreTwo" class="score">0</div>
+            </div>
+            <img src="" id="cardTwo"/>
+        </div>
+    </div>
+</div>
+<div id="anakinWins"></div>
+<div id="obiwanWins"></div>
+<div id="itsADraw"></div>
+</body>
+</html>
